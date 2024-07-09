@@ -1,4 +1,4 @@
-/*find the kth smallest element in the given array.
+/*find the kth Largest element in the array.
 Time Complexity: O(nlogn)
 Space Complexity: O(1) */
 class Solution {
