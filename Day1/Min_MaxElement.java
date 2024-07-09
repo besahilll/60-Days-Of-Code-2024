@@ -1,6 +1,6 @@
 /*find the minimum and maximum element in the array.
 Time complexity: O(n) 
-Space Complexity: O(1) */
+Space Complexity: O(1) *//
 class Solution {
     public Pair<Long, Long> getMinMax(int[] arr) {
         int min=Integer.MAX_VALUE;
