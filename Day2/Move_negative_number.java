@@ -1,5 +1,7 @@
+/*Move all negative elements to beginning without maintaining order
+Time complexity: O(n)
+Space Complexity: O(n)*/
 import java.util.*;
-
 class Move_negative_number{
     public static void move_number(int[] arr){
         int left=0, right=arr.length-1;
