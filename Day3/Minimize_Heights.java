@@ -1,3 +1,4 @@
+//minimum possible difference between the height of the shortest and tallest towers after you have modified each tower.
 class Solution {
     int getMinDiff(int[] arr, int n, int k) {
         
