@@ -6,21 +6,20 @@ class Solution
     //Function to return length of longest subsequence of consecutive integers.
 	static int findLongestConseqSubseq(int arr[], int n)
 	{
-	   // add your code here
-	   int max=1;
+	   int longest=1;
+	   int last_smaller=Integer.MIN_VALUE;
+	   int count=0;
 	   Arrays.sort(arr);
-	   int count=1;
-	   for(int i=1;i<n;i++){
-	       if(1+arr[i-1]==arr[i]){
+	   for(int i=0;i<n;i++){
+	       if(arr[i]-1==last_smaller){
 	           count++;
-	           max=Math.max(max,count);
-	       }else if(arr[i-1]==arr[i]){
-	           continue;
-	       }else{
+	           last_smaller=arr[i];
+	       }else if(arr[i]!=last_smaller){
 	           count=1;
+	           last_smaller=arr[i];
 	       }
+	       longest=Math.max(longest,count);
 	   }
-	   
-	   return max;
+	   return longest;
 	}
 }
