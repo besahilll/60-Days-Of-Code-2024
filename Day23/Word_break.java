@@ -1,3 +1,5 @@
+//Given a string s and a dictionary of n words dictionary, find out if "s" can be segmented into a space-separated sequence of dictionary words.
+Return 1 if it is possible to break the s into a sequence of dictionary words, else return 0.
 class Solution
 {
     public static int wordBreak(int n, String s, ArrayList<String> dictionary )
