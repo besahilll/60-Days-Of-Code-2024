@@ -1,3 +1,4 @@
+//Given an expression string x. Examine whether the pairs and the orders of {,},(,),[,] are correct in exp.
 class Solution {
     static boolean ispar(String x) {
         Stack<Character> stack = new Stack<>();
