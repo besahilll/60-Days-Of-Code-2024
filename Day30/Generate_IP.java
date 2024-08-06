@@ -1,3 +1,4 @@
+//Given a string S containing only digits, Your task is to complete the function genIp() which returns a vector containing all possible combinations of valid IPv4 IP addresses and takes only a string S as its only argument.
 class Solution {
     public ArrayList<String> genIp(String s) {
         // code here
