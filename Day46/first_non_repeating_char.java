@@ -1,3 +1,4 @@
+//First non-repeating character in a stream
 class Solution
 {
     public String FirstNonRepeating(String A)
