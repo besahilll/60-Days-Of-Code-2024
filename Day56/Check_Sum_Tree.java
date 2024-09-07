@@ -1,3 +1,4 @@
+
 /* A Binary Tree node
 class Node
 {
