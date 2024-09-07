@@ -38,6 +38,4 @@ class Solution
         
         return checkUtil(root, 0, leafLevel);
     }
-    
- 	
 }
