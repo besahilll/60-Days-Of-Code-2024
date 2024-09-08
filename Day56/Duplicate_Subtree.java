@@ -1,5 +1,4 @@
 /* A Binary Tree node
-
 class Node
 {
     int data;
