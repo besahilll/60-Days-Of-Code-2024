@@ -12,9 +12,7 @@ class Solution
       if(root1.data!=root2.data){
           return false;
       }
-      
       return (isIsomorphic(root1.left,root2.left)&&isIsomorphic(root1.right,root2.right))||
-              isIsomorphic(root1.left,root2.right)&&isIsomorphic(root1.right,root2.left);
-           
+              isIsomorphic(root1.left,root2.right)&&isIsomorphic(root1.right,root2.left);    
     } 
 }    
